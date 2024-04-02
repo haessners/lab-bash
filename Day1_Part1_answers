@@ -13,7 +13,7 @@
 13. (base) sarahaessner@Air-von-Sara lorem % whoami
 14. (base) sarahaessner@Air-von-Sara lorem % pwd (bringing up /Users/sarahaessner/Desktop/IH_2024/Lab/lab-bash/lorem)
 15. (base) sarahaessner@Air-von-Sara lorem % ls *txt 
---> is that also working and correct:
+--> is that also working and correct: 
 (base) sarahaessner@Air-von-Sara lab-bash % ls lorem/*.txt ?
 16. (base) sarahaessner@Air-von-Sara lorem % wc -l < sed.txt  (but it tells me "-1" is wrong and an error if I add it with my computer and don't copy it somewhere)
 17. (base) sarahaessner@Air-von-Sara lab-bash % cat lorem/sed.txt | wc -l
