@@ -6,5 +6,5 @@
 6. (base) sarahaessner@Air-von-Sara lab-bash % cat lorem/sed.txt
 7. (base) sarahaessner@Air-von-Sara lab-bash % cat lorem/at.txt lorem/lorem.txt
 8. (base) sarahaessner@Air-von-Sara lorem-copy % head -3 sed.txt
-9.
-10. 
+9. (base) sarahaessner@Air-von-Sara lorem-copy % tail -3 sed.txt
+10. (base) sarahaessner@Air-von-Sara lorem-copy % echo "Homo homini lupus." >> sed.txt
