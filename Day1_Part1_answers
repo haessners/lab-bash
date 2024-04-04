@@ -1,0 +1,22 @@
+1. (base) sarahaessner@Air-von-Sara lab-bash % echo "Hello World"
+2. (base) sarahaessner@Air-von-Sara lab-bash % mkdir new_dir
+3. (base) sarahaessner@Air-von-Sara lab-bash % rmdir new_dir
+4. (base) sarahaessner@Air-von-Sara lab-bash % cp lorem/sed.txt lorem-copy
+5. (base) sarahaessner@Air-von-Sara lab-bash % cp lorem/*txt lorem-copy/
+6. (base) sarahaessner@Air-von-Sara lab-bash % cat lorem/sed.txt
+7. (base) sarahaessner@Air-von-Sara lab-bash % cat lorem/at.txt lorem/lorem.txt
+8. (base) sarahaessner@Air-von-Sara lorem-copy % head -3 sed.txt
+9. (base) sarahaessner@Air-von-Sara lorem-copy % tail -3 sed.txt
+10. (base) sarahaessner@Air-von-Sara lorem-copy % echo "Homo homini lupus." >> sed.txt
+11. (base) sarahaessner@Air-von-Sara lorem-copy % tail -3 sed.txt
+12. (base) sarahaessner@Air-von-Sara lorem % sed -i "s/et/ET" at.txt
+13. (base) sarahaessner@Air-von-Sara lorem % whoami
+14. (base) sarahaessner@Air-von-Sara lorem % pwd (bringing up /Users/sarahaessner/Desktop/IH_2024/Lab/lab-bash/lorem)
+15. (base) sarahaessner@Air-von-Sara lorem % ls *txt 
+--> is that also working and correct: 
+(base) sarahaessner@Air-von-Sara lab-bash % ls lorem/*.txt ?
+16. (base) sarahaessner@Air-von-Sara lorem % wc -l < sed.txt  (but it tells me "-1" is wrong and an error if I add it with my computer and don't copy it somewhere)
+17. (base) sarahaessner@Air-von-Sara lab-bash % cat lorem/sed.txt | wc -l
+20.
+21. 
+22.
